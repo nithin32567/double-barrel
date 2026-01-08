@@ -64,6 +64,10 @@ body {
   .admin-card {
     @apply bg-black-secondary border border-black-tertiary rounded-xl p-6 transition-all hover:border-silver-tertiary;
   }
+
+  .btn-dark {
+    @apply bg-black-tertiary text-silver-light border border-silver-tertiary/20 font-bold px-8 py-4 rounded-full transition-all uppercase tracking-widest text-sm hover:bg-black-secondary hover:border-silver-tertiary hover:scale-[1.02] active:scale-[0.98] cursor-pointer;
+  }
 }
 
 /* Animations */

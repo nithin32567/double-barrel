@@ -74,7 +74,7 @@ const AdminLogin: React.FC = () => {
                             </div>
                         </div>
 
-                        <button type="submit" className="w-full btn-primary">
+                        <button type="submit" className="w-full btn-dark">
                             Sign In
                         </button>
                     </form>
